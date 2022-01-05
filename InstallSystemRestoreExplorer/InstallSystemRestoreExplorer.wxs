@@ -25,7 +25,7 @@
     
     <Media Id="1" Cabinet="SystemRestoreExplorer.cab" EmbedCab="yes" CompressionLevel="high"/>
     
-    <Condition Message="[ProductName] requires Windows Vista or higher.">VersionNT >= 600</Condition>
+    <Condition Message="[ProductName] requires Windows XP or higher.">VersionNT >= 500</Condition>
 
     <PropertyRef Id="NETFRAMEWORK35" />
     <Condition Message="[ProductName] requires Microsoft .NET Framework 3.5 to be installed.">
