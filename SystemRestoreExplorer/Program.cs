@@ -17,7 +17,7 @@ namespace SystemRestoreExplorer
 
             try
             {
-                if (Environment.OSVersion.Version.Major >= 6)
+                if (Environment.OSVersion.Version.Major >= 5)
                 {
                     Application.Run(new MainForm());
                 }
